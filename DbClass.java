@@ -47,7 +47,7 @@ public class DbClass {
         Connection lconn = null;
         try {
             lconn = DriverManager
-                    .getConnection("jdbc:mysql://localhost:3306/scripdata", "root", "makarand@bp");
+                    .getConnection("jdbc:mysql://localhost:3306/DATABASENAME", "**USERNAME**", "**URPASSWORD**");
 
         } catch (SQLException e) {
             System.out.println("Connection Failed! Check output console");
